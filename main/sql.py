@@ -1,3 +1,7 @@
+"""
+Code via CS50 Python Library:
+https://github.com/cs50/python-cs50/
+"""
 def _enable_logging(f):
     """Enable logging of SQL statements when Flask is in use."""
 

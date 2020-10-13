@@ -33,7 +33,6 @@ db = SQL("sqlite:///database.db")
 @app.route("/")
 #@login_required
 def index():
-    db.execute("CREATE TABLE 'test' ('t1' INTEGER, 't2' TEXT)")
     return render_template("index.html")
 
 @app.route("/test")
